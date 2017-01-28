@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'Sortdecai';
+    src: url('../fonts/fonts/sortdecai_brush_script-webfont.woff2') format('woff2'),
+         url('../fonts/fonts/sortdecai_brush_script-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 html,body,#page, header { height:100%;}
 body{
   padding:0;margin:0;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .marketing .col-lg-6 {
@@ -86,75 +93,13 @@ body{
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color:  #054664;
-    padding: 10px 0;
+    padding: 0px 0;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
 }
 
-section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
-  color:#0b6087;
-  font-weight: bold;
-}
-section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: none;
-  font-style: italic;
-  font-weight: 400;
-  margin-bottom: 75px;
-}
-.about{
-  padding-left:0px;
-  padding-right:0px;
-}
-@media (min-width: 1200px) {
-  .about{
-    padding-left:150px;
-    padding-right:150px;
-  }
-}
-.gray-bg{
-  padding-top: 20px;
-  background-color: #eee;
-  padding-bottom: 20px;
-}
-.team-member{
-  text-align: center;
-}
-
-
-ul.social-buttons li a {
-  display: block;
-  background-color: #0b6087;
-  height: 50px;
-  width: 50px;
-  border-radius: 100%;
-  font-size: 20px;
-  line-height: 50px;
-  color: white;
-  outline: none;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  padding-bottom: 20px;
-}
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-  background-color: #054664;
-}
-.img-circle{
-  width:65%;
-}
-.team-member img{
-  margin: 0 auto;
-border: 7px solid #fff;
-}
 .result-title{
   margin-bottom:10px;
   margin-top:15px;
@@ -205,4 +150,168 @@ footer{
   .result{
     padding-left: 0px;
   }
+}
+body,html{
+    height: 100%;
+  }
+
+  nav.sidebar, .main{
+    -webkit-transition: margin 200ms ease-out;
+      -moz-transition: margin 200ms ease-out;
+      -o-transition: margin 200ms ease-out;
+      transition: margin 200ms ease-out;
+  }
+
+  .main{
+    padding: 10px 10px 0 10px;
+  }
+
+ @media (min-width: 765px) {
+
+    .main{
+      position: absolute;
+      width: calc(100% - 40px);
+      margin-left: 40px;
+      float: right;
+    }
+
+    nav.sidebar:hover + .main{
+      margin-left: 200px;
+    }
+
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 0px;
+    }
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+
+    nav.sidebar a{
+      padding-right: 13px;
+    }
+
+    nav.sidebar .navbar-nav > li:first-child{
+      border-top: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav > li{
+      border-bottom: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+      color: #777;
+    }
+
+    nav.sidebar{
+      width: 250px;
+      height: 100%;
+      margin-left: -160px;
+      float: left;
+      margin-bottom: 0px;
+    }
+
+    nav.sidebar li {
+      width: 100%;
+    }
+
+    nav.sidebar:hover{
+      margin-left: 0px;
+    }
+
+    .forAnimate{
+      opacity: 0;
+    }
+  }
+
+  @media (min-width: 1330px) {
+
+    .main{
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    }
+
+    nav.sidebar .forAnimate{
+      opacity: 1;
+    }
+  }
+
+  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+
+  nav:hover .forAnimate{
+    opacity: 1;
+  }
+  .parent-header {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .child-header {
+      transition: all 1.5s;
+      background:url('../images/header.jpg') no-repeat;
+      background-attachment:fixed;
+      background-position:center;
+      background-size:cover;
+      filter:brightness(.7);
+      z-index: -1;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+  }
+
+  .parent-header:hover > .child-header {
+      transform: scale(1.1);
+  }
+.header-text{
+  color: white;
+  padding: 0.5em;
+  margin: 0;
+  z-index: 50;
+}
+.header-jumbotron{
+    font-size: 100px;
+  padding-top: 15%;
+  font-family:Sortdecai;
+}
+.header-hr{
+width: 50%;
+border-top: 3px solid #f1f1f1;
+padding-bottom: 50px;
+}
+.header-result{
+  border: 4px solid white;
+  color:white;
+  font-size: 25px;
+  padding: 20px 40px;
+}
+.header-result:hover, .header-result:focus{
+  color: white;
+      text-decoration: underline;
 }

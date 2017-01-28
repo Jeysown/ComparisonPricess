@@ -16,28 +16,46 @@
 </footer>
 </body>
 </html>
+	<script src="assets/js/canvasjs.min.js"></script>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
-
+<script src="assets/js/charts.js"></script>
     <script src="assets/js/header.js"></script>
     <script src="assets/js/ease.js"></script>
-    <script type="text/javascript">
-     $("#sidebar-content").load("sidebar.php");
 
+    <script type="text/javascript">
+     $("#sidebar-content").load("listofresort.php");
+     $('#Overview').click(function(){
+        $("#sidebar-content").load("listofresort.php");
+        return false;
+     });
+
+$('#twoormore').click(function(){
+   $("#sidebar-content").load("twoormore.php");
+   return false;
+});
+    $('#priceday').click(function(){
+       $("#sidebar-content").load("priceday.php");
+       return false;
+    });
+    $('#pricewhole').click(function(){
+       $("#sidebar-content").load("pricewhole.php");
+       return false;
+    });
     $('#average').click(function(){
-       $("#sidebar-content").load("average.php");
+       $("#sidebar-content").load("averageprice.php");
        return false;
     });
-    $('#Overview').click(function(){
-       $("#sidebar-content").load("sidebar.php");
+    $('#difference').click(function(){
+       $("#sidebar-content").load("difference.php");
        return false;
     });
-    $('#item1').click(function(){
-       $("#sidebar-content").load("item1.php");
+    $('#day').click(function(){
+       $("#sidebar-content").load("day.php");
        return false;
     });
-    $('#item2').click(function(){
-       $("#sidebar-content").load("item2.php");
+    $('#wholeday').click(function(){
+       $("#sidebar-content").load("wholeday.php");
        return false;
     });
     </script>

@@ -4,20 +4,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="assets/fonts/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css" media="screen" title="no title">
-
   </head>
-  <body id="page-top">
+  <body id="page-top" onload="createColumnChartoverview()">
   <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
       <div class="container">
           <div class="navbar-header page-scroll">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                   <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
               </button>
-              <a class="navbar-brand page-scroll" href="#page-top">Yey</a>
+              <a class="navbar-brand page-scroll" href="#page-top">JuanOuting.com</a>
           </div>
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
@@ -52,9 +50,8 @@
 
   </section>
   <section id="Interpretation" style="background:#f1f1f1;height:580px;">
-    <?php include 'price.php'; ?>
-    <div id="sidebar-content">
-
+    <?php include 'sidebar_content.php'; ?>
+    <div id="sidebar-content" class="col-lg-9 overview">
     </div>
 </section>
 <?php include 'footer.php' ?>

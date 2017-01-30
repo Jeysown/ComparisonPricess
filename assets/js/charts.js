@@ -68,7 +68,7 @@ function createColumnChartwholeday() {
   {
     backgroundColor:"#f1f1f1",
     title:{
-      text: "Online Presence of the resort"
+      text: "Online Presence of the Resort - Wholeday"
     },
     animationEnabled: true,
   axisY:{
@@ -99,7 +99,7 @@ function createColumnChartday() {
     backgroundColor:"#f1f1f1",
     animationEnabled: true,
     title:{
-      text: "Online Presence of the resort"
+      text: "Online Presence of the Resort - Day"
     },
   axisY:{
         interval: 10

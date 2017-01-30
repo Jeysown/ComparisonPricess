@@ -1,23 +1,22 @@
-<center><h1 style="font-weight:bold">Difference between Price</h1></center>
+<center><h1 style="font-weight:bold">Equal Price on Listing Sites and Website</h1></center>
 <div class="col-lg-6">
-<center class="yey2"><h1><span id="minreg"></span>%</h1>Difference between Peak Season and Regular Season - Half Day</center>
+<center class="yey2"><h1><span id="minreg"></span>%</h1>of the Resorts have an Equal Price. <br>- Half Day</center>
 </div>
 
 <div class="col-lg-6">
-<center class="yey2"><h1><span id="maxreg"></span>%</h1>Difference between Peak Season and Regular Season - Whole Day</center>
+<center class="yey2"><h1> <span id="maxreg"></span>%</h1>of the Resorts have an Equal Price.<br> - Whole Day</center>
 </div>
-
 
 
 <script type="text/javascript">
-  $({someValue: 0}).animate({someValue: 22}, {
+  $({someValue: 0}).animate({someValue: 14}, {
       duration: 2000,
       easing:'swing',
       step: function() {
           $('#minreg').text(commaSeparateNumber(Math.round(this.someValue)));
       }
   });
-  $({someValue: 0}).animate({someValue: 14}, {
+  $({someValue: 0}).animate({someValue: 4}, {
       duration: 2000,
       easing:'swing',
       step: function() {

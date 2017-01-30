@@ -4,7 +4,7 @@
 
       <div class="col-xs-12" style="padding:10px;">
         <div class="col-sm-6 col-xs-6" style="text-align:left;font-style:italic;padding:0px;">
-          All Rights Reserved Copyright © 2016
+          All Rights Reserved Copyright © 2017
         </div>
         <div class="col-sm-6 col-xs-6" style="text-align:right;padding:0px;">
           A Product by NiceSwan!
@@ -52,6 +52,14 @@ $('#twoormore').click(function(){
     });
     $('#difference').click(function(){
        $("#sidebar-content").load("difference.php");
+       return false;
+    });
+    $('#discrepancy').click(function(){
+       $("#sidebar-content").load("discrepancy.php");
+       return false;
+    });
+    $('#discrepancy2').click(function(){
+       $("#sidebar-content").load("discrepancy2.php");
        return false;
     });
     $('#day').click(function(){

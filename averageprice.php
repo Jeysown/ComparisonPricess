@@ -1,4 +1,4 @@
-<center><h1 style="font-weight:bold">Average Price of a Resort - Day</h1></center>
+<center><h1 style="font-weight:bold">Average Price of a Resort - Half Day</h1></center>
 <div class="col-lg-6">
 <center class="yey1"><h1>&#8369;<span id="minreg"></span></h1>Average Price in a regular season (Weekdays)</center>
 </div>

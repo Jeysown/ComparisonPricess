@@ -1,4 +1,4 @@
-<center><h1 style="font-weight:bold">Price in a Day/Night</h1></center>
+<center><h1 style="font-weight:bold">Price in a Half Day</h1></center>
 <div class="col-lg-6">
 <center class="yey"><h1>&#8369;<span id="minreg"></span></h1>Minimum Price in a Regular Season</center>
 </div>

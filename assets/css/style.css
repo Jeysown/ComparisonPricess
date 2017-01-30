@@ -267,7 +267,7 @@ body,html{
   }
 
   .child-header {
-      transition: all 1.5s;
+      transition: all 2s ease;
       background:url('../images/header.jpg') no-repeat;
       background-attachment:fixed;
       background-position:center;
@@ -280,7 +280,7 @@ body,html{
   }
 
   .parent-header:hover > .child-header {
-      transform: scale(1.1);
+      transform: scale(1.05);
   }
 .header-text{
   color: white;
@@ -327,7 +327,7 @@ margin-bottom: 10px;
 
 }
 .yey1{
-  padding: 50px; /*size of the frame*/
+  padding: 40px; /*size of the frame*/
 /*give the frame's background colour a gradient*/
 background: #fff; /*fallback colour for browsers that don't support gradients*/
 -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);

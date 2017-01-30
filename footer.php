@@ -46,6 +46,10 @@ $('#twoormore').click(function(){
        $("#sidebar-content").load("averageprice.php");
        return false;
     });
+    $('#averagepricewhole').click(function(){
+       $("#sidebar-content").load("averagepricewhole.php");
+       return false;
+    });
     $('#difference').click(function(){
        $("#sidebar-content").load("difference.php");
        return false;

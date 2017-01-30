@@ -43,13 +43,11 @@
   </div>
 
   <!-- about -->
-  <section id="Maps" style="height:700px">
-    <div class="col-lg-12">
-      <iframe src="//www.google.com/maps/embed/v1/place?q=Technological%20Institute%20of%20the%20Philippines&zoom=17 &key=AIzaSyBVPZIWcBs6SVr5uECLmrhe8c-9DD8dGe0" style="height:500px;width:80%;border:none;"></iframe>
-    </div>
+  <section id="Maps" style="height:700px;">
+       <iframe src="https://www.google.com/maps/embed/v1/place?q=Technological%20Institute%20of%20the%20Philippines&zoom=17 &key=AIzaSyBVPZIWcBs6SVr5uECLmrhe8c-9DD8dGe0" style="height:700px;width:100%;border:none"></iframe>
 
   </section>
-  <section id="Interpretation" style="background:#f1f1f1;height:580px;">
+  <section id="Interpretation" style="background:#f1f1f1;height:580px;background-attachment:fixed;">
     <?php include 'sidebar_content.php'; ?>
     <div id="sidebar-content" class="col-lg-9 overview">
     </div>

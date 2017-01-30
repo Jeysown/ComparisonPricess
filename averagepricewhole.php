@@ -1,4 +1,4 @@
-<center><h1 style="font-weight:bold">Average Price of a Resort - Day</h1></center>
+<center><h1 style="font-weight:bold">Average Price of a Resort - Whole Day</h1></center>
 <div class="col-lg-6">
 <center class="yey1"><h1>&#8369;<span id="minreg"></span></h1>Average Price in a regular season (Weekdays)</center>
 </div>
@@ -16,14 +16,14 @@
 
 
 <script type="text/javascript">
-  $({someValue: 0}).animate({someValue: 6152}, {
+  $({someValue: 0}).animate({someValue: 16930}, {
       duration: 2000,
       easing:'swing',
       step: function() {
           $('#minreg').text(commaSeparateNumber(Math.round(this.someValue)));
       }
   });
-  $({someValue: 0}).animate({someValue: 6956}, {
+  $({someValue: 0}).animate({someValue: 17090}, {
       duration: 2000,
       easing:'swing',
       step: function() {
@@ -31,14 +31,14 @@
       }
   });
 
-  $({someValue: 0}).animate({someValue: 8214}, {
+  $({someValue: 0}).animate({someValue: 21740}, {
       duration: 2000,
       easing:'swing',
       step: function() {
           $('#minpeak').text(commaSeparateNumber(Math.round(this.someValue)));
       }
   });
-  $({someValue: 0}).animate({someValue: 8922}, {
+  $({someValue: 0}).animate({someValue: 21880}, {
       duration: 2000,
       easing:'swing',
       step: function() {

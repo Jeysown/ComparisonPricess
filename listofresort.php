@@ -1,4 +1,4 @@
-<?php include 'WholedayQueries.php';?>
+<?php include 'wholedayQueries.php';?>
 
     <div id="chartContainer" style="height:450px; width: 100%;"></div>
     <center><h1><span class="count" style="font-weight:bold;">296</span> Resorts listed on different websites.</h1>  </center>

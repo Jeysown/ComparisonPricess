@@ -1,3 +1,6 @@
+function glen1() {
+  createColumnChartoverview();
+}
 function createColumnChartoverview() {
 
   var chart = new CanvasJS.Chart("chartContainer",
@@ -68,7 +71,7 @@ function createColumnChartwholeday() {
   {
     backgroundColor:"#f1f1f1",
     title:{
-      text: "Online Presence of the Resort - Wholeday"
+      text: "Online Presence of the Resort - Whole DayBooking"
     },
     animationEnabled: true,
   axisY:{
@@ -99,7 +102,7 @@ function createColumnChartday() {
     backgroundColor:"#f1f1f1",
     animationEnabled: true,
     title:{
-      text: "Online Presence of the Resort - Day"
+      text: "Online Presence of the Resort - Half Day Booking"
     },
   axisY:{
         interval: 10

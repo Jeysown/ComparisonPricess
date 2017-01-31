@@ -34,7 +34,7 @@ function initialize() {
   var marker;
   var mapOptions = {
     center: new google.maps.LatLng(14.181979,121.191378),
-    zoom: 15,
+    zoom: 10,
     mapTypeId: google.maps.MapTypeId.ROADMAP
   };
 

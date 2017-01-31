@@ -10,10 +10,10 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
       <ul class="nav1 nav navbar-nav">
-        <li onmouseout="createColumnChartoverview()" class="active" id="Overview"><a class="page-scroll" href="#Interpretation" >List of Resorts<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-list"></span></a></li>
-        <li onmouseout="createColumnCharttwoormore()" id="twoormore"><a class="page-scroll" href="#Interpretation" >Two or more Listing<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-menu-hamburger"></span></a></li>
-        <li onmouseout="createColumnChartday()" id="day"><a class="page-scroll" href="#Interpretation" >Online Presence - Half Day<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon glyphicon-cloud"></span></a></li>
-        <li onmouseout="createColumnChartwholeday()" id="wholeday"><a class="page-scroll" href="#Interpretation" >Online Presence - Wholeday<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cloud-upload"></span></a></li>
+        <li onmouseleave="glen1()" class="active" id="Overview"><a class="page-scroll" href="#Interpretation" >List of Resorts<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-list"></span></a></li>
+        <li onmouseleave="createColumnCharttwoormore()" id="twoormore"><a class="page-scroll" href="#Interpretation" >Two or more Listing<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-menu-hamburger"></span></a></li>
+        <li onmouseleave="createColumnChartday()" id="day"><a class="page-scroll" href="#Interpretation" >Online Presence - Half Day<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon glyphicon-cloud"></span></a></li>
+        <li onmouseleave="createColumnChartwholeday()" id="wholeday"><a class="page-scroll" href="#Interpretation" >Online Presence - Wholeday<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cloud-upload"></span></a></li>
         <li id="priceday"><a class="page-scroll" href="#Interpretation" >Price - Half Day<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon glyphicon-tag"></span></a></li>
         <li id="pricewhole"><a class="page-scroll" href="#Interpretation" >Price - Whole Day<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon glyphicon-tags"></span></a></li>
           <li id="average"><a class="page-scroll" href="#Interpretation" >Average Price - Half Day<span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-credit-card"></span></a></li>
